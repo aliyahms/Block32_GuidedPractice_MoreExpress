@@ -2,7 +2,7 @@ const express = require("express");
 const app = express();
 const PORT = 3000;
 
-// In order to get information form request body we need to Parse it with body parsing hardware.
+// In order to get information from request body we need to Parse it with body parsing hardware.
 app.use(express.json());
 
 // Simple logging middleware
